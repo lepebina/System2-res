@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+  <head>
+    <title> Stepdown - Cucumber feature analysis</title>
+    <link type='text/css' rel='stylesheet' href='stepdown.css'></link>
+    <link type='text/css' rel='stylesheet' href='bootstrap.min.css'></link>
+    <script src='jquery-1.6.1.min.js'></script>
+    <script src='jquery.flot.min.js'></script>
+    <script src='js-class.js'></script>
+    <script src='bluff-min.js'></script>
+    <script src='excanvas.js'></script>
+    <script src='step_down.js'></script>
+  </head>
+  <body>
+    <div class='container'>
+      <div id='header'>
+        <h1> Cucumber analysis</h1>
+      </div>
+      <div class='navbar'>
+        <div class='navbar-inner'>
+        <ul class='nav'>
+          <li class="divider-vertical"></li>
+          <li>
+          <a href='#overview'> Overview</a>
+          </li>
+          <li class="divider-vertical"></li>
+          <li>
+            <a href='#trend'> Trend</a>
+          </li>
+          <li class="divider-vertical"></li>
+          <li>
+            <a href='#usage'> Step usage</a>
+          </li>
+          <li class="divider-vertical"></li>
+          <li>
+            <a href='#unused'> Unused steps</a>
+          </li>
+          <li class="divider-vertical"></li>
+          <li>
+            <a href='#empty'> Empty scenarios</a>
+          </li>
+          <li class="divider-vertical"></li>
+          <li>
+            <a href='#grouping'> Step grouping</a>
+          </li>
+          <li class="divider-vertical"></li>
+        </ul>
+      </div>
+      </div>
+      <div id='content'>
+        <h2>
+          <a name='overview'> Overview</a>
+        </h2>
+        <table class='table table-condensed table-bordered' style='width: 400px'>
+          <tbody>
+            <tr>
+              <th> Stat</th>
+              <th> Result</th>
+            </tr>
+            <tr>
+              <td> Total number of scenarios</td>
+              <td>64</td>
+            </tr>
+            <tr>
+              <td> Total number of steps</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td> Unused steps</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td> Steps per scenario</td>
+              <td>0.00</td>
+            </tr>
+            <tr>
+              <td> Unique steps per scenario</td>
+              <td>NaN</td>
+            </tr>
+          </tbody>
+          </table>
+          <h2>
+          <a name='trend'> Trend</a>
+        </h2>
+        <div id='graph' style="width:890px;height:400px">
+        </div>
+        <h2>
+          <a name='usage'> Step usages</a>
+        </h2>
+        <div>
+          Filter
+          <br />
+          Usage
+          <select id='use_filter'>
+            <option> All
+            <option value='20'> >20</option>
+            <option value='<50'> >50</option>
+            <option value='<75'> >75</option>
+            <option value='<100'> >100</option>
+            <option value='<200'> >200</option>
+            <option value='<300'> >300</option>
+          </select>
+          Scenarios
+          Usage
+          <select id='scenario_filter'>
+            <option> All
+            <option value='<10'> >10</option>
+            <option value='<20'> >20</option>
+            <option value='<50'> >50</option>
+            <option value='<75'> >75</option>
+            <option value='<100'> >100</option>
+            <option value='<200'> >200</option>
+            <option value='<300'> >300</option>
+          </select>
+        </div>
+        <table id='usages' class='table table-condensed table-bordered'>
+          <tbody>
+            <tr>
+              <th> Step</th>
+              <th> Total usage</th>
+              <th> Scenarios</th>
+              <th> Use per scenario</th>
+            </tr>
+
+            
+          </tbody>
+        </table>
+        <p class="more"><a href="#">Show more</a></p>
+
+        <h2>
+          <a name='unused'> Unused steps</a>
+        </h2>
+        <table id='unused' class='table table-condensed table-bordered'>
+          <tbody>
+            <th> Step</th>
+
+              
+          </tbody>
+        </table>
+        <p class="more"><a href="#">Show more</a></p>
+
+        <h2>
+          <a name='empty'> Empty scenarios</a>
+        </h2>
+        <table id='empty' class='table table-condensed table-bordered'>
+          <tbody>
+            <th> Scenarios</th>
+
+            
+              <tr>
+                <td>Create consumer profile using sps user services</td>
+              </tr>
+            
+              <tr>
+                <td>Update consumer profile using sps user services</td>
+              </tr>
+            
+              <tr>
+                <td>Delete consumer profile using sps user services</td>
+              </tr>
+            
+              <tr>
+                <td>Upgrade consumer profile to teacher using sps user services</td>
+              </tr>
+            
+              <tr>
+                <td>Upgrade consumer profile to teacher using sps user service-5</td>
+              </tr>
+            
+              <tr>
+                <td>Upgrade of  consumer user profile to teacher user profile using sps user services-7</td>
+              </tr>
+            
+              <tr>
+                <td>Update user information using user's profile page-6</td>
+              </tr>
+            
+              <tr>
+                <td>Add child to a consumer profile using sps user services</td>
+              </tr>
+            
+              <tr>
+                <td>Add credit card to wallet using sps wallet services</td>
+              </tr>
+            
+              <tr>
+                <td>Get the number of cards in wallet and its Info using sps wallet services</td>
+              </tr>
+            
+              <tr>
+                <td>retrieve number of cards in a wallet and their info using sps wallet services-5</td>
+              </tr>
+            
+              <tr>
+                <td>The task to Get the number of cards in wallet and its Info using sps wallet services-7</td>
+              </tr>
+            
+              <tr>
+                <td>User cards details-6</td>
+              </tr>
+            
+              <tr>
+                <td>Delete a credit card from the wallet using sps wallet services</td>
+              </tr>
+            
+              <tr>
+                <td>Add child user using sps child Service</td>
+              </tr>
+            
+              <tr>
+                <td>Use SPS child Service to add child user-10</td>
+              </tr>
+            
+              <tr>
+                <td>Additional of child user through SPS service-8</td>
+              </tr>
+            
+              <tr>
+                <td>Update child user using sps child Service</td>
+              </tr>
+            
+              <tr>
+                <td>Delete child user using sps child Service</td>
+              </tr>
+            
+              <tr>
+                <td>Change existing US domestic school to existing international school using sps edit school services</td>
+              </tr>
+            
+              <tr>
+                <td>changing US domestic school to international school using sps school edit services-5</td>
+              </tr>
+            
+              <tr>
+                <td>The use of sps edit to change available US domestic school to available international school-7</td>
+              </tr>
+            
+              <tr>
+                <td>Alter school information using school profile in the main page-6</td>
+              </tr>
+            
+              <tr>
+                <td>Change existing US domestic school to home School using sps edit school services</td>
+              </tr>
+            
+              <tr>
+                <td>Replace current US domestic school to home School utilizing sps edit school services-10</td>
+              </tr>
+            
+              <tr>
+                <td>Renaming existing Domestic school to home school using SPS school services editor-8</td>
+              </tr>
+            
+              <tr>
+                <td>Change existing US domestic school to manual School using sps edit school services</td>
+              </tr>
+            
+              <tr>
+                <td>Send my school info using sps edit school services to send a request to customer service to review my school Info</td>
+              </tr>
+            
+              <tr>
+                <td>Create teacher using sps user services</td>
+              </tr>
+            
+              <tr>
+                <td>Update teacher profile using sps user services</td>
+              </tr>
+            
+              <tr>
+                <td>Delete teacher profile using sps user services</td>
+              </tr>
+            
+              <tr>
+                <td>Capture payment from the payment Services</td>
+              </tr>
+            
+              <tr>
+                <td>Grasp payment from the payment Services-10</td>
+              </tr>
+            
+              <tr>
+                <td>Tracking payment-8</td>
+              </tr>
+            
+              <tr>
+                <td>Sign in payment from the sign in Payment Services</td>
+              </tr>
+            
+              <tr>
+                <td>Add credit card from the subscription Services</td>
+              </tr>
+            
+              <tr>
+                <td>Add credit card from the subscription service-5</td>
+              </tr>
+            
+              <tr>
+                <td>The process of adding credit card from the subscription Services-7</td>
+              </tr>
+            
+              <tr>
+                <td>Payment services Credit card option</td>
+              </tr>
+            
+              <tr>
+                <td>Get all states from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Get all cities by state from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Get all countries from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Get all schools by country from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Get all schools by zipcode from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Using lookup services to get all schools by zipcode</td>
+              </tr>
+            
+              <tr>
+                <td>Using zip code to search all schools which are looking for the services.</td>
+              </tr>
+            
+              <tr>
+                <td>Get all schools by state and city from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Get all teachers of a school from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>All school teachers querying service</td>
+              </tr>
+            
+              <tr>
+                <td>Get all alternate teachers of a school from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Get consumers exposed data from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Get educators exposed data from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Get primary School address from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Get existing shipping address from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Get only reading club teachers from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Get all greades and class sizes from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Get all credit cards in wallet from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>get all existing associated social media accounts from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Get all child users from the lookup Services</td>
+              </tr>
+            
+              <tr>
+                <td>Add grade class size using sps GradeClassSize Service</td>
+              </tr>
+            
+              <tr>
+                <td>Use spsGradeClassSize Service to add grade class-10</td>
+              </tr>
+            
+              <tr>
+                <td>Using SPS GradeClassSize to increase grade class size-8</td>
+              </tr>
+            
+              <tr>
+                <td>Update grade class size using sps GradeClassSize Service</td>
+              </tr>
+            
+              <tr>
+                <td>Delete grade class size using sps GradeClassSize Service</td>
+              </tr>
+            
+          </tbody>
+        </table>
+        <p class="more"><a href="#">Show more</a></p>
+
+        <h2>
+          <a name='grouping'> Step grouping</a>
+        </h2>
+        <table id='grouping' class='table table-condensed table-bordered'>
+          <tbody>
+            <th> Step</th>
+            <th> Total step associations</th>
+
+            
+          </tbody>
+        </table>
+        <p class="more"><a href="#">Show more</a></p>
+    <script src='stepdown.js'></script>
+  </body>
+</html>
+

@@ -1,0 +1,2110 @@
+[
+  {
+    "line": 1,
+    "name": "As QA Engineer I want to Add, Update, Get and Delete the Child users from the Teacher or Parents Profile.",
+    "description": "       In order to Validate the End to End Testing of Create Complete Teacher or Parent Profile.",
+    "id": "as-qa-engineer-i-want-to-add,-update,-get-and-delete-the-child-users-from-the-teacher-or-parents-profile.",
+    "keyword": "Feature",
+    "uri": "spsChildServices.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "As a SPS User I want to add grade class size using sps GradeClassSize Service  - \"Create Teacher, Add GradeClassSize \r\nand Get the GradeClassSize \".",
+        "id": "as-qa-engineer-i-want-to-add,-update,-get-and-delete-the-grade-and-the-class-size-from-the-teachers-profile.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 188100228,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am Using SPS GradeClassSize Service to \"Add GradeClassSize\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add GradeClassSize\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepdefinationSpsGradeClassSizeServicesTest.i_am_Using_SPS_GradeClassSize_Service_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5564890623,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am Calling the Add GradeClassSize Service End Point",
+            "match": {
+              "location": "StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Add_GradeClassSize_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 407422,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should See the \"Added GradeClassSize to the Profile\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Added GradeClassSize to the Profile\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsGradeClassSizeServicesTest.i_should_See_the_Added_GradeClassSize_to_the_Profile_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "",
+        "description": "As a SPS User I want to update grade class size using sps GradeClassSize Service  - \"Create Teacher, Add GradeClassSize, \r\nUpdate and Get the GradeClassSize \".",
+        "id": "as-qa-engineer-i-want-to-add,-update,-get-and-delete-the-grade-and-the-class-size-from-the-teachers-profile.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131196,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am Using SPS GradeClassSize Service to \"Update GradeClassSize\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Update GradeClassSize\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepdefinationSpsGradeClassSizeServicesTest.i_am_Using_SPS_GradeClassSize_Service_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1250837492,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am Calling the Update GradeClassSize Service End Point",
+            "match": {
+              "location": "StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Update_GradeClassSize_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77646,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should See the \"Updated GradeClassSize to the Profile\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Updated GradeClassSize to the Profile\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsGradeClassSizeServicesTest.i_should_See_the_Added_GradeClassSize_to_the_Profile_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "",
+        "description": "As a SPS User I want to delete grade class size using sps GradeClassSize Service  - \"Create Teacher, Add GradeClassSize \r\nand Delete the GradeClassSize \".",
+        "id": "as-qa-engineer-i-want-to-add,-update,-get-and-delete-the-grade-and-the-class-size-from-the-teachers-profile.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 86571,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am Using SPS GradeClassSize Service to \"Delete GradeClassSize\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Delete GradeClassSize\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepdefinationSpsGradeClassSizeServicesTest.i_am_Using_SPS_GradeClassSize_Service_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 936052964,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am Calling the Delete GradeClassSize Service End Point",
+            "match": {
+              "location": "StepdefinationSpsGradeClassSizeServicesTest.i_am_Calling_the_Delete_GradeClassSize_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112007,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should See the \"Deleted GradeClassSize from the Profile\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deleted GradeClassSize from the Profile\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsGradeClassSizeServicesTest.i_should_See_the_Added_GradeClassSize_to_the_Profile_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As QA Engineer I want to Add, Update, Get and Delete the Grade and the Class Size from the Teachers Profile.",
+    "description": "In order to Validate the End to End Testing of Create Complete Teacher Profile.",
+    "id": "as-qa-engineer-i-want-to-add,-update,-get-and-delete-the-grade-and-the-class-size-from-the-teachers-profile.",
+    "keyword": "Feature",
+    "uri": "spsGradeClassSizeServices.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "As a SPS User I want to get all states from the lookup Services - \"Get All States\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 178498,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am Using SPS Service to Get \"All States\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All States\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1998422075,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am Calling The Get All States Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_The_Get_All_States_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114685,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should Get all States in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "States",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "As a SPS User I want to get all cities by state from the lookup Services - \"Get All Cities by State\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 116470,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am Using SPS Service to Get \"All Cities by State\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Cities by State\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36226990111,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am Calling Get All Cities by State Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Cities_by_State_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74077,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should Get all Cities in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cities",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "",
+        "description": "As a SPS User I want to get all countries from the lookup Services - \"Get All Country\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88802,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am Using SPS Service to Get \"All Countries\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Countries\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5017025620,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am Calling Get All Countries Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Countries_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72738,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should Get all Countries in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Countries",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "",
+        "description": "As a SPS User I want to get all schools by country from the lookup Services - \"Get All Schools by Country\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 190101,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I am Using SPS Service to Get \"All Schools by Country\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Schools by Country\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 484425795,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am Calling Get All Schools by Country Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Schools_by_Country_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87464,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should Get all Schools by Country in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Schools by Country",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "",
+        "description": "As a SPS User I want to get all schools by zipcode from the lookup Services - \"Get All Schools by Zip Code\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84341,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I am Using SPS Service to Get \"All Schools by Zip Code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Schools by Zip Code\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 500322413,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I am Calling Get All Schools by Zip Code Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Schools_by_Zip_Code_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112008,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should Get all Schools by Zip Code in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Schools by Zip Code",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "",
+        "description": "As a SPS User I want to get all schools by state and city from the lookup Services - \"Get All Schools by State \u0026 City\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 98620,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I am Using SPS Service to Get \"All Schools by State and City\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Schools by State and City\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 290952766,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I am Calling Get All Schools by State and City Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Schools_by_State_and_City_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99959,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should Get all Schools by State and City in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Schools by State and City",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "",
+        "description": "As a SPS User I want to get all teachers of a school from the lookup Services - \"Get All Teachers\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 72292,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I am Using SPS Service to Get \"All Teachers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Teachers\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 864979381,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I am Calling Get All Teachers Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Teachers_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86571,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I should Get all Teachers in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Teachers",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "",
+        "description": "As a SPS User I want to get all alternate teachers of a school from the lookup Services - \"Get All Alternate Teachers\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59797,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I am Using SPS Service to Get \"All Alternate Teachers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Alternate Teachers\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 897317482,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I am Calling Get All Alternate Teachers Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Alternate_Teachers_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73184,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I should Get all Alternate Teachers in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alternate Teachers",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 59,
+        "name": "",
+        "description": "As a SPS User I want to get consumers exposed data from the lookup Services - \"Expose Consumer\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 71399,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I am Using SPS Service to Get \"Expose Consumer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Expose Consumer\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 194316880,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I am Calling Expose Consumer Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Expose_Consumer_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 204827,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I should Get all Expose Consumer data in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Expose Consumer data",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 66,
+        "name": "",
+        "description": "As a SPS User I want to get educators exposed data from the lookup Services - \"Expose Educator\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 114239,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I am Using SPS Service to Get \"Expose Educator\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Expose Educator\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 292985863,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I am Calling Expose Educator Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Expose_Educator_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 185193,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I should Get all Expose Educator data in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Expose Educator data",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 73,
+        "name": "",
+        "description": "As a SPS User I want to get primary School address from the lookup Services - \"Get Primary School Address\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 160648,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I am Using SPS Service to Get \"Primary School Address\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Primary School Address\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 391400931,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I am Calling Get Primary School Address Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_Primary_Shool_Address_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65598,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I should Get all Primary School Address in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Primary School Address",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 80,
+        "name": "",
+        "description": "As a SPS User I want to get existing shipping address from the lookup Services - \"Get Existing Shipping Address\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53996,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I am Using SPS Service to Get \"Existing Shipping Address\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Existing Shipping Address\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 634783885,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I am Calling Get Existing Shipping Address Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_Existing_Shipping_Address_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75415,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "I should Get all Existing Shipping Address in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Existing Shipping Address",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 87,
+        "name": "",
+        "description": "As a SPS User I want to get only reading club teachers from the lookup Services - \"Get Only Teachers logged in Reading Club\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70507,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "I am Using SPS Service to Get \"Only Reading Club Teachers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Only Reading Club Teachers\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 554670253,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I am Calling Get Only Reading Club Teachers Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_Only_Reading_Club_Teachers_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90588,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I should Get all Reading Club Teachers in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reading Club Teachers",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 94,
+        "name": "",
+        "description": "As a SPS User I want to get all greades and class sizes from the lookup Services - \"Get All Grades and Class Sizes\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 169574,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "I am Using SPS Service to Get \"All Grades And Class Sizes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Grades And Class Sizes\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244945707,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "I am Calling Get All Grades And Class Sizes Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Grades_And_Class_Sizes_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138336,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "I should Get all Grades And Class Sizes in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Grades And Class Sizes",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 101,
+        "name": "",
+        "description": "As a SPS User I want to get all credit cards in wallet from the lookup Services - \"Get All Credit Cards in Wallet\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 153062,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "I am Using SPS Service to Get \"All Credit Cards In Wallet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Credit Cards In Wallet\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 438700318,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "I am Calling Get All Credit Cards In Wallet Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Credit_Cards_In_Wallet_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121825,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "I should Get all Credit Cards In Wallet in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Credit Cards In Wallet",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 108,
+        "name": "",
+        "description": "As a SPS User I want to get all existing associated social media account from the lookup Services - \"Get All Existing Associated Social Media Accounts\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 537726,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "I am Using SPS Service to Get \"All Existing Associated Social Media Accounts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Existing Associated Social Media Accounts\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237879850,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "I am Calling Get All Existing Associated Social Media Accounts Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Existing_Associated_Social_Media_Accounts_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 377078,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "I should Get all Existing Associated Social Media Accounts in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Existing Associated Social Media Accounts",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 115,
+        "name": "",
+        "description": "As a SPS User I want to get all child users from the lookup Services - \"Get All Child Users\".",
+        "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 149046,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "I am Using SPS Service to Get \"All Child Users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Child Users\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Using_SPS_Service_Get_All_States(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 308313516,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "I am Calling Get All Child Users Service End Point",
+            "match": {
+              "location": "StepdefinationSpsLookupServicesTest.I_am_Calling_Get_All_Child_Users_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141014,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "I should Get all Child Users in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Child Users",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsLookupServicesTest.I_should_Get_all_States_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a SPS User I want to verify all the lookup services.",
+    "description": "",
+    "id": "as-a-sps-user-i-want-to-verify-all-the-lookup-services.",
+    "keyword": "Feature",
+    "uri": "spsLookupServices.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "As a SPS User I want to capture payment from the payment Services - \"Capture Paments\".",
+        "id": "as-a-qa-engineer-i-want-to-add,-edit-credit-cards-for-subscription-and-capture-and-sign-in-payments.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 397159,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am Utilizing SPS Payment Service to Get \"Capture Payment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " \"Capture Payment\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepdefinationSpsPaymentServicesTest.i_am_Utilizing_SPS_Payment_Service_to_Get(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 632227789,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am Calling The Capture Payment Service End Point",
+            "match": {
+              "location": "StepdefinationSpsPaymentServicesTest.i_am_Using_The_Capture_Payment_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94604,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Should Suppose to Get \"Success Capture Payment\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success Capture Payment\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepdefinationSpsPaymentServicesTest.i_Should_Suppose_to_Get_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "As a SPS User I want myself sign in payment from the sign in Payment Services - \"Sign in Payment\".",
+        "id": "as-a-qa-engineer-i-want-to-add,-edit-credit-cards-for-subscription-and-capture-and-sign-in-payments.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99066,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am Utilizing SPS Payment Service to Get \"Sign in Payment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " \"Sign in Payment\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepdefinationSpsPaymentServicesTest.i_am_Utilizing_SPS_Payment_Service_to_Get(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 465972635,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am Calling The Sign in Payment Service End Point",
+            "match": {
+              "location": "StepdefinationSpsPaymentServicesTest.i_am_Calling_The_Sign_in_Payment_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87464,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Should Suppose to Get \"Sign in Payment Info\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in Payment Info\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepdefinationSpsPaymentServicesTest.i_Should_Suppose_to_Get_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "",
+        "description": "As a SPS User I want to add credit card from the subscription Services - \"Add Credit Card\".",
+        "id": "as-a-qa-engineer-i-want-to-add,-edit-credit-cards-for-subscription-and-capture-and-sign-in-payments.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 77646,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am Utilizing SPS Service to \"Add Credit Card\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add Credit Card\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepdefinationSpsPaymentServicesTest.i_am_Utilizing_SPS_Service_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30457588568,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am Calling Add Credit Card to Subscription Service End Point",
+            "match": {
+              "location": "StepdefinationSpsPaymentServicesTest.i_am_Calling_Add_Credit_Card_to_Subscription_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95497,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I Should Suppose to Get \"Success - Credit Card Added\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success - Credit Card Added\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepdefinationSpsPaymentServicesTest.i_Should_Suppose_to_Get_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a QA Engineer I want to Add, Edit Credit Cards for Subscription and Capture and Sign in Payments.",
+    "description": "",
+    "id": "as-a-qa-engineer-i-want-to-add,-edit-credit-cards-for-subscription-and-capture-and-sign-in-payments.",
+    "keyword": "Feature",
+    "uri": "spsPaymentServices.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "As a SPS User I want to change existing US domestic school to existing international school using sps edit school services - \"Create Teacher attached with US Domestic School, Access to Account \u0026 Change the School by Add existing International School Id\".",
+        "id": "as-qa-engineer-i-want-to-change-user\u0027s-existing-school-to-existing-international-school,-home-school,-manual-school-or;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 413224,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am Using SPS Edit School Service to Change from US Domestic School to \"Existing International School\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Existing International School\"",
+                  "offset": 72
+                }
+              ],
+              "location": "StepdefinationSpsSchoolEditServicesTest.i_am_Using_SPS_Edit_School_Service_to_Change_from_US_Domestic_School_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6846602082,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am Calling the Edit Domestic To International School Service End Point",
+            "match": {
+              "location": "StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_International_School_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 210182,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should See the School changed to \"International School\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "School changed to \"International School\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsGradeClassSizeServicesTest.i_should_See_the_Added_GradeClassSize_to_the_Profile_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "",
+        "description": "As a SPS User I want to change existing US domestic school to home School using sps edit school services - \"Create Teacher attached with US Domestic School, Create Home School, Access to Account \u0026 Change the School by Adding the Home School\".",
+        "id": "as-qa-engineer-i-want-to-change-user\u0027s-existing-school-to-existing-international-school,-home-school,-manual-school-or;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 142799,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am Using SPS Edit School Service to Change from US Domestic School to \"Home School\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home School\"",
+                  "offset": 72
+                }
+              ],
+              "location": "StepdefinationSpsSchoolEditServicesTest.i_am_Using_SPS_Edit_School_Service_to_Change_from_US_Domestic_School_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7067240331,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am Calling the Edit Domestic To Home School Service End Point",
+            "match": {
+              "location": "StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Home_School_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 285598,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should See the School changed to \"Home School\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "School changed to \"Home School\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsGradeClassSizeServicesTest.i_should_See_the_Added_GradeClassSize_to_the_Profile_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "",
+        "description": "As a SPS User I want to change existing US domestic school to manual School using sps edit school services - \"Create Teacher attached with US Domestic School, Create Manual School, Access to Account \u0026 Change the School by Adding the Manual School\".",
+        "id": "as-qa-engineer-i-want-to-change-user\u0027s-existing-school-to-existing-international-school,-home-school,-manual-school-or;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 184746,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am Using SPS Edit School Service to Change from US Domestic School to \"Manual School\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manual School\"",
+                  "offset": 72
+                }
+              ],
+              "location": "StepdefinationSpsSchoolEditServicesTest.i_am_Using_SPS_Edit_School_Service_to_Change_from_US_Domestic_School_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7118754510,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am Calling the Edit Domestic To Manual School Service End Point",
+            "match": {
+              "location": "StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_Domestic_To_Manual_School_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 210182,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should See the School changed to \"Manual School\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "School changed to \"Manual School\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsGradeClassSizeServicesTest.i_should_See_the_Added_GradeClassSize_to_the_Profile_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "",
+        "description": "As a SPS User I want to send my school info using sps edit school services to send a request to customer service to review my school Info - \"Create Teacher attached with US Domestic School, Access to Account \u0026 Send School Info for Review\".",
+        "id": "as-qa-engineer-i-want-to-change-user\u0027s-existing-school-to-existing-international-school,-home-school,-manual-school-or;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 182961,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am Using SPS Edit School Service to Send request for \"Review\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Review\"",
+                  "offset": 55
+                }
+              ],
+              "location": "StepdefinationSpsSchoolEditServicesTest.I_am_Using_SPS_Edit_School_Service_to_Send_request_for_Review_Request(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7508155813,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I am Calling the Edit School Service for Review End Point",
+            "match": {
+              "location": "StepdefinationSpsSchoolEditServicesTest.i_am_Calling_the_Edit_School_Service_for_Review_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 594846,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I should Get the Request for \"Review Sent\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Request for \"Review Sent\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepdefinationSpsChildServicesTest.i_should_Get_the_Added_Child_Info_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As QA Engineer I want to change user\u0027s existing school to existing International School, Home school, Manual School or",
+    "description": "send a request to customer service to review my school Info because of the school name is correct, but the address is incorrect.\r\n       In order to Validate the End to End Testing of edit user\u0027s school information.",
+    "id": "as-qa-engineer-i-want-to-change-user\u0027s-existing-school-to-existing-international-school,-home-school,-manual-school-or",
+    "keyword": "Feature",
+    "uri": "spsSchoolEditServices.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "As a SPS User I want to create consumer profile using sps user services - \"Create \u0026 Get Consumer Profile\".",
+        "id": "as-qa-engineer-i-want-to-create,-update,-upgrade-and-delete-consumer-profile,;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 438213,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am Having SPS User Service to \"Create Consumer Profile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create Consumer Profile\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepdefinationSpsUserConsumerServicesTest.I_am_Having_SPS_User_Service_to_(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 283749912,
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c409\u003e doesn\u0027t match actual status code \u003c201\u003e.\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:408)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:598)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:760)\r\n\tat sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:483)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)\r\n\tat com.jayway.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)\r\n\tat com.jayway.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)\r\n\tat com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Create_Consumer(StepdefinationSpsUserConsumerServicesTest.java:34)\r\n\tat ✽.When I am Calling The Service End Point of Create Consumer(spsUserConsumerServices.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "I am Calling The Service End Point of Create Consumer",
+            "match": {
+              "location": "StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Create_Consumer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I should Have \"New Consumer Profile\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"New Consumer Profile\"",
+                  "offset": 14
+                }
+              ],
+              "location": "StepdefinationSpsUserConsumerServicesTest.i_Should_have_Consumer_Profile_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "",
+        "description": "As a SPS User I want to delete consumer profile using sps user services - \"Delete Consumer Profile\".",
+        "id": "as-qa-engineer-i-want-to-create,-update,-upgrade-and-delete-consumer-profile,;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 77647,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am Having SPS User Service to \"Delete Consumer Profile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Delete Consumer Profile\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepdefinationSpsUserConsumerServicesTest.I_am_Having_SPS_User_Service_to_(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207973789,
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c409\u003e doesn\u0027t match actual status code \u003c201\u003e.\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:408)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:598)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:760)\r\n\tat sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:483)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)\r\n\tat com.jayway.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)\r\n\tat com.jayway.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)\r\n\tat com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Delete_Consumer(StepdefinationSpsUserConsumerServicesTest.java:111)\r\n\tat ✽.When I am Calling The Service End Point of Delete Consumer(spsUserConsumerServices.feature:20)\r\n",
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "I am Calling The Service End Point of Delete Consumer",
+            "match": {
+              "location": "StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Delete_Consumer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I should Have \"No Consumer Profile - Deleted\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No Consumer Profile - Deleted\"",
+                  "offset": 14
+                }
+              ],
+              "location": "StepdefinationSpsUserConsumerServicesTest.i_Should_have_Consumer_Profile_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "",
+        "description": "As a SPS User I want to upgrade consumer profile to teacher using sps user services - \"Upgrade Consumer to Teacher \u0026 Get The Profile\".",
+        "id": "as-qa-engineer-i-want-to-create,-update,-upgrade-and-delete-consumer-profile,;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73184,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am Having SPS User Service to \"Upgrade Consumer To Teacher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Upgrade Consumer To Teacher\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepdefinationSpsUserConsumerServicesTest.I_am_Having_SPS_User_Service_to_(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 206221382,
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c409\u003e doesn\u0027t match actual status code \u003c201\u003e.\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:408)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:598)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:760)\r\n\tat sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:483)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)\r\n\tat com.jayway.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat com.jayway.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)\r\n\tat com.jayway.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)\r\n\tat com.scholastic.test.StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Upgrade_Consumer(StepdefinationSpsUserConsumerServicesTest.java:143)\r\n\tat ✽.When I am Calling The Service End Point of Upgrade Consumer(spsUserConsumerServices.feature:26)\r\n",
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "I am Calling The Service End Point of Upgrade Consumer",
+            "match": {
+              "location": "StepdefinationSpsUserConsumerServicesTest.i_am_Calling_The_Service_End_Point_of_Upgrade_Consumer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I should Have \"Teacher Profile - Upgraded from Consumer\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teacher Profile - Upgraded from Consumer\"",
+                  "offset": 14
+                }
+              ],
+              "location": "StepdefinationSpsUserConsumerServicesTest.i_Should_have_Consumer_Profile_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As QA Engineer I want to Create, Update, Upgrade and Delete Consumer Profile,",
+    "description": "       In order to Validate End to End Testing of SPS User Profile.",
+    "id": "as-qa-engineer-i-want-to-create,-update,-upgrade-and-delete-consumer-profile,",
+    "keyword": "Feature",
+    "uri": "spsUserConsumerServices.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "As a SPS User I want to create teacher using sps user services - \"Create Teacher \u0026 Get The Profile\".",
+        "id": "as-qa-engineer-i-want-to-create,-update,-and-delete-teacher-profile,;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 173590,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am Using SPS User Service to \"Create Teacher Profile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create Teacher Profile\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepdefinationSpsUserTeacherServicesTest.I_am_Using_SPS_User_Service_to_(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 526592462,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am Calling The Create Teacher Service End Point",
+            "match": {
+              "location": "StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Create_Teacher_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164219,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Should Display New Teacher Profile in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New Teacher Profile",
+                  "offset": 15
+                }
+              ],
+              "location": "StepdefinationSpsUserTeacherServicesTest.Should_Display_Teacher_Profile_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "",
+        "description": "As a SPS User I want to delete teacher profile using sps user services - \"Create Teacher \u0026 Delete the Teacher Profile\".",
+        "id": "as-qa-engineer-i-want-to-create,-update,-and-delete-teacher-profile,;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139229,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am Using SPS User Service to \"Delete Teacher Profile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Delete Teacher Profile\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepdefinationSpsUserTeacherServicesTest.I_am_Using_SPS_User_Service_to_(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 583030964,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am Calling The Delete Teacher Service End Point",
+            "match": {
+              "location": "StepdefinationSpsUserTeacherServicesTest.I_am_Calling_The_Delete_Teacher_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80325,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Should Display No Teacher Profile - \"Deleted\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No Teacher Profile - \"Deleted\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepdefinationSpsUserTeacherServicesTest.Should_Display_Teacher_Profile_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As QA Engineer I want to Create, Update, and Delete Teacher Profile,",
+    "description": "       In order to Validate End to End Testing of SPS User Profile.",
+    "id": "as-qa-engineer-i-want-to-create,-update,-and-delete-teacher-profile,",
+    "keyword": "Feature",
+    "uri": "spsUserTeacherServices.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "As a SPS User I want to add credit card to wallet using sps wallet services - \"Create user, Access to Account \u0026 Add Credit Card to Wallet\".",
+        "id": "as-qa-engineer-i-want-to-add-credit-card-to-wallet,-update-or-edit-credit-card-information,-get-number-of-credit-cards-in-the-wallet;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 292737,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am Using SPS Wallet Service to \"Add Crdit Card\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add Crdit Card\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepdefinationSpsWalletServicesTest.i_am_Using_SPS_Wallet_Service_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6761862220,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am Calling the Add Credit Card to Wallet Service End Point",
+            "match": {
+              "location": "StepdefinationSpsWalletServicesTest.i_am_Calling_the_Add_Credit_Card_to_Wallet_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157078,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Should Get the \"Added Credit Card In the Wallet\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Added Credit Card In the Wallet\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepdefinationSpsWalletServicesTest.Should_Get_the_Added_Credit_Info_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "As a SPS User I want to get the number of cards in wallet and its Info using sps wallet services - \"Create user, Access to Account, Add Credit Card \u0026 Get the Card Info\".",
+        "id": "as-qa-engineer-i-want-to-add-credit-card-to-wallet,-update-or-edit-credit-card-information,-get-number-of-credit-cards-in-the-wallet;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 164219,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am Using SPS Wallet Service to \"Get Crdit Card Info\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Get Crdit Card Info\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepdefinationSpsWalletServicesTest.i_am_Using_SPS_Wallet_Service_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7112302241,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am Calling the Get Credit Card Service End Point",
+            "match": {
+              "location": "StepdefinationSpsWalletServicesTest.i_am_Calling_the_Get_Credit_Card_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67383,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Should Get the \"Credit Card Info from the Wallet\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Credit Card Info from the Wallet\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepdefinationSpsWalletServicesTest.Should_Get_the_Added_Credit_Info_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "",
+        "description": "As a SPS User I want to delete a credit card from the wallet using sps wallet services - \"Create user, Access to Account, Add Credit Card \u0026 Delete the Card\".",
+        "id": "as-qa-engineer-i-want-to-add-credit-card-to-wallet,-update-or-edit-credit-card-information,-get-number-of-credit-cards-in-the-wallet;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51318,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am Using SPS Wallet Service to \"Delete Crdit Card\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Delete Crdit Card\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepdefinationSpsWalletServicesTest.i_am_Using_SPS_Wallet_Service_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6937695595,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am Calling the Delete Credit Card Service End Point",
+            "match": {
+              "location": "StepdefinationSpsWalletServicesTest.i_am_Calling_the_Delete_Credit_Card_Service_End_Point()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147261,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Should Get the \"Deleted - No Credit Card Info\" in response.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deleted - No Credit Card Info\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepdefinationSpsWalletServicesTest.Should_Get_the_Added_Credit_Info_in_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As QA Engineer I want to Add Credit Card to Wallet, Update or Edit Credit Card Information, Get number of Credit Cards in the Wallet",
+    "description": "\u0026 it\u0027s Info and Delete Credit Card from the Wallet, in order to Validate the End to End Testing of Submitting orders and Make Payments.",
+    "id": "as-qa-engineer-i-want-to-add-credit-card-to-wallet,-update-or-edit-credit-card-information,-get-number-of-credit-cards-in-the-wallet",
+    "keyword": "Feature",
+    "uri": "spsWalletServices.feature"
+  }
+]
